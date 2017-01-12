@@ -1,9 +1,16 @@
 package com.tsystems.ecrono;
 
+import org.hibernate.Session;
+
+import com.tsystems.ecrono.configuration.HibernateUtil;
+
 public class Aplication {
 
     public static void main(String[] args) {
-	// TODO Auto-generated method stub
+
+	Session session = HibernateUtil.getSession();
+
+	// session = HibernateUtil.close();
 
     }
 
