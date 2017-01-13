@@ -1,4 +1,4 @@
-package com.tsystems.ecrono.domain;
+package com.tsystems.ecrono.domain.component;
 
 public enum RaceType {
 
